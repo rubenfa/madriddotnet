@@ -6,7 +6,9 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var consoler = new Helpers.ConsoleWriter("cylonmachine");
+
+            consoler.Write("Disk space is 25%");
         }
     }
 }

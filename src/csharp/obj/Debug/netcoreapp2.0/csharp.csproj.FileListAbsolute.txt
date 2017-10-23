@@ -1,0 +1,10 @@
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/csharp.csproj.CoreCompileInputs.cache
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/csharp.AssemblyInfoInputs.cache
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/csharp.AssemblyInfo.cs
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/csharp.deps.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/csharp.runtimeconfig.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/csharp.runtimeconfig.dev.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/csharp.dll
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/csharp.pdb
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/csharp.dll
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/csharp.pdb

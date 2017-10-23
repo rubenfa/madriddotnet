@@ -1,4 +1,3 @@
----
 ### ¿Qué es Elixir?
 ![Image-Absolute](assets/img/valim.jpg)
 - Creado por Jose Valim
@@ -15,6 +14,4 @@
 
 - Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986) 
 - Puedes hacer aplicaciones backend
-- Aplicaciones web con Phoenix (framework)
-
----
+    - Aplicaciones web con Phoenix (framework)

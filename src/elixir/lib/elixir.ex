@@ -1,4 +1,4 @@
-defmodule Elixir do
+defmodule Elixirs do
   @moduledoc """
   Documentation for Elixir.
   """
