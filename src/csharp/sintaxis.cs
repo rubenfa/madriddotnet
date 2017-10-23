@@ -14,15 +14,11 @@ namespace Helpers{
         public void Write(string message)
         {
             string messageWithDate = ConcatDate(message);
-
             Console.WriteLine($"{messageWithDate} from machine {machineName}");
-
         }
-
 
         private string ConcatDate(string message){
             return $"{message} at {DateTime.Now}";
         }
-
     }
 }
