@@ -34,6 +34,8 @@ end
 #### Typespecs
 
 ```
+@type t :: binary
+
 @spec split(t, pattern | Regex.t(), keyword) :: [t]
 def split(string, pattern, options \\ [])
 ```
