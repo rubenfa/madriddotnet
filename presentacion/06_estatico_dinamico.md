@@ -20,9 +20,9 @@ estatico.cs(9,16): error CS0029: No se puede convertir implícitamente el tipo '
 
 ```elixir
 defmodule MadridDotNet.Dinamico do
-  def suma(a, b) do
-    a + b
-  end
+ def suma(a, b) do
+   a + b
+ end
 end
 ```
 
@@ -30,3 +30,10 @@ end
 ** (ArithmeticError) bad argument in arithmetic expression
 ```
 
+---
+#### Typespecs
+
+```
+@spec split(t, pattern | Regex.t(), keyword) :: [t]
+def split(string, pattern, options \\ [])
+```
