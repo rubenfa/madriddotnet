@@ -3,3 +3,4 @@
 ---?include=presentacion/03_objetivo.md
 ---?include=presentacion/04_que_es_elixir.md
 ---?include=presentacion/05_sintaxis.md
+---?include=presentacion/06_estatico_dinamico.md
