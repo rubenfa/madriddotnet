@@ -4,3 +4,4 @@ public class Estatico {
         return x + b;
     }
 }
+d

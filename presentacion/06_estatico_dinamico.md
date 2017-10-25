@@ -1,4 +1,4 @@
-## C# es estático
+### C# es estático
 
 
 ```chsarp
@@ -13,10 +13,10 @@ public class Estatico {
 ```
 estatico.cs(9,16): error CS0029: No se puede convertir implícitamente el tipo 'string' en 'int'
 ```
+---
 
 
-
-## Elixir es dinámico, pero de tipado fuerte
+### Elixir es dinámico, pero de tipado fuerte
 
 ```elixir
 defmodule MadridDotNet.Dinamico do
