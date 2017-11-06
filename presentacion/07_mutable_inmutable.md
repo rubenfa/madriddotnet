@@ -20,28 +20,27 @@ namespace MadridDotNet {
 
 ---
 
-### Elixir es un lenguaje inmutable
+### Elixir es un lenguaje inmutable, pero con rebinding
 
 ```elixir
 iex(1)> x = 1
 1
 iex(2)> x = 2
 2
-iex(3)> x = 1  + x
+iex(3)> x = 1 + x
 3
 iex(4)> x
 3
 
 ```
-
 ---
-### Elixir es un lenguaje inmutable
 
-```elixir
-iex(1)> numbers = [1, 2, 3]
-[1, 2, 3]
-iex(2)> numbers ++ [4]
-[1, 2, 3, 4]
-iex(3)> List.insert_at(numbers, 1, 7)
-[1, 7, 2, 3]
 ```
+array = [ 1, 2, 3 ]
+do_something(array)
+print(array)
+```
+---
+### Elixir es un lenguaje inmutable, pero con rebinding
+
+![Image-Absolute](assets/img/mutable_inmutable.png)

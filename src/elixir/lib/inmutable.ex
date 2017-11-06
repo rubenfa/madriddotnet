@@ -1,14 +1,7 @@
-defmodule MadridDotnet.Inmutable do
+defmodule MadridDotNet.Inmutable do
 
-  def add(number) do
-    [1, 2, 3] ++ [number]
-  end
-
-  def previous(name) do
-    
-
-
+  def do_something(array) do
+    [0 | array]
   end
 
 end
-
