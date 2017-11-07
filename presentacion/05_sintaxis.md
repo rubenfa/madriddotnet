@@ -53,7 +53,7 @@ end
 ### Métodos vs Funciones
 
 
-```chsarp
+```csharp
 using System;
 
 namespace Helpers{

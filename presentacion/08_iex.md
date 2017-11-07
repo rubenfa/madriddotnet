@@ -1,2 +1,2 @@
 #### IEX (Interactive Elixir)
-![Image-Absolute](img/iex.png)
+![Image-Absolute](assets/img/iex.png)
