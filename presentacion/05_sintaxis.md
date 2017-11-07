@@ -48,5 +48,63 @@ defmodule Sintaxis.ConsoleWriter do
 end
 ```
 
+---
+
+### Métodos vs Funciones
+
+
+```chsarp
+using System;
+
+namespace Helpers{
+
+    public class MethodClass {
+
+        public int sum(int a, int b) {
+            return a + b;
+        }
+
+        public int sum(int a, int b, int c) {
+            return a + b + c;
+        }
+
+        public double sum(double a, double b) {
+            return a + b;
+        }
+
+        public double sum(double a, double b, double c) {
+            return a + b + c;
+        }
+
+    }
+}
+
+```
+@[7-13]
+@[15-21]
+
+
+---
+
+### Métodos vs Funciones
+
+```elixir
+defmodule MadridDotNet.Arity do
+
+  def sum(a, b) do
+    a + b
+  end
+
+  def sum (a, b, c) do
+    a + b + c
+  end
+end
+``` 
+
+```
+sum/2
+sum/3
+```
+
 
 
