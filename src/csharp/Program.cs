@@ -1,4 +1,5 @@
 ﻿using System;
+using MadridDotNet;
 
 namespace csharp
 {
@@ -6,9 +7,7 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            var consoler = new Helpers.ConsoleWriter("cylonmachine");
-
-            consoler.Write("Disk space is 25%");
+            Estructuras.EjecutarEjemplo1();
         }
     }
 }

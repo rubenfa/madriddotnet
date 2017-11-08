@@ -7,3 +7,5 @@
 ---?include=presentacion/07_mutable_inmutable.md
 ---?include=presentacion/08_iex.md
 ---?include=presentacion/09_using_import.md
+---?include=presentacion/10_tipos.md
+
