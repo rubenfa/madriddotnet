@@ -11,7 +11,7 @@ iex(16)> [1,2,true,3,4,false] -- [true,false]
 ---
 
 ### TIPOS
-#### Listas en C#
+#### Listas en C# #
 
 ```csharp
 var lista = new List<object>();
@@ -20,6 +20,7 @@ lista.add(2);
 lista.add(true);
 lista.add("cuatro");
 ```
+---
 
 ### TIPOS
 #### Listas clave valor, en Elixir
@@ -60,7 +61,7 @@ iex(22)> result_message
 ---
 
 ### TIPOS
-#### Tuplas en C#
+#### Tuplas en C# #
 
 ```csharp
 var tupla = new Tuple<int, string, string>(0, "error", "Variable not found");
@@ -74,7 +75,7 @@ var message = tupla.Item3;
 ---
 
 ### TIPOS
-#### Tuplas en C#
+#### Tuplas en C# #
 
 ```csharp
 public static (int code, string resultType, string message) GetErrorCode() {

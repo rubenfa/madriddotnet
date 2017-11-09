@@ -1,4 +1,4 @@
-### C# tiene namespaces para organizar el código
+### C# tiene namespaces para organizar el código #
 
 ```csharp
 using System.Linq;
