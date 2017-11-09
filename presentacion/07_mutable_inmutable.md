@@ -35,12 +35,19 @@ iex(4)> x
 ```
 ---
 
+### Elixir es un lenguaje inmutable, pero con rebinding
+
+![Image-Absolute](assets/img/mutable_inmutable.png)
+
+
+
+### Piensa en este ejemplo
+
 ```
 array = [ 1, 2, 3 ]
 do_something(array)
 print(array)
 ```
----
-### Elixir es un lenguaje inmutable, pero con rebinding
 
-![Image-Absolute](assets/img/mutable_inmutable.png)
++++?image=assets/img/right.gif
+
