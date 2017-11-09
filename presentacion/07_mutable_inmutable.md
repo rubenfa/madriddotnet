@@ -39,7 +39,8 @@ iex(4)> x
 
 ![Image-Absolute](assets/img/mutable_inmutable.png)
 
-
+---
+g
 
 ### Piensa en este ejemplo
 
