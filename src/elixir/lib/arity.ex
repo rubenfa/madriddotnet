@@ -4,7 +4,7 @@ defmodule MadridDotNet.Arity do
     a + b
   end
 
-  def sum (a, b, c) do
+  def sum(a, b, c) do
     a + b + c
   end
 end
