@@ -98,4 +98,4 @@ System.Console.WriteLine(string.Join("", result));
 
 ```
 
-
++++?image=assets/img/right.gif

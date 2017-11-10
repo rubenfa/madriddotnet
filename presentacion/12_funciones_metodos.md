@@ -60,7 +60,7 @@ def calcular() do
 end
 ``` 
 
-+++?image=assets/img/right.gif
+
 
 
 
