@@ -80,13 +80,13 @@ end
 ---
 
 #### La programación funcional va de transformar datos
-![Image-Absolute](img/functional-thinking.png)
+![Image-Absolute](assets/img/functional-thinking.png)
 <span style="font-size:0.6em; color:gray">See <a href="https://pragprog.com/book/elixir/programming-elixir" target="_blank"> Programming Elixir by Dave Thomas</a> </span>
 ---
 
 ### Además esto nos suena
 
-```chsarp
+```csharp
 var result =
    number.ToString()
          .Select(digit=> char.GetNumericValue(digit))
@@ -97,3 +97,5 @@ var result =
 System.Console.WriteLine(string.Join("", result));
 
 ```
+
+
