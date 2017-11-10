@@ -7,7 +7,7 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            MadridDotNet.LinqExample.EjecutarEjemplo1(123456);
+            MadridDotNet.Funciones.EjecutarEjemplo3();
         }
     }
 }
