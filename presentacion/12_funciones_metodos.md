@@ -16,6 +16,8 @@ int resultado  =
        new Func<int,int,int>((x,y) => x +y)(2,3) ;
 ```
 
+---
+
 ### Funciones anónimas en Elixir #
 
 ```elixir
