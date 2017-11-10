@@ -8,4 +8,5 @@
 ---?include=presentacion/08_iex.md
 ---?include=presentacion/09_using_import.md
 ---?include=presentacion/10_tipos.md
+---?include=presentacion/11_funciones_metodos.md
 
