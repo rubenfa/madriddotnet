@@ -1,0 +1,13 @@
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/libhostpolicy.so
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/libhostfxr.so
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp.deps.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp.runtimeconfig.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp.runtimeconfig.dev.json
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp.dll
+/home/ruben/Desarrollo/madriddotnet/src/csharp/bin/Debug/netcoreapp2.0/ubuntu-x64/csharp.pdb
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/ubuntu-x64/csharp.csproj.CoreCompileInputs.cache
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/ubuntu-x64/csharp.AssemblyInfoInputs.cache
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/ubuntu-x64/csharp.AssemblyInfo.cs
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/ubuntu-x64/csharp.dll
+/home/ruben/Desarrollo/madriddotnet/src/csharp/obj/Debug/netcoreapp2.0/ubuntu-x64/csharp.pdb
