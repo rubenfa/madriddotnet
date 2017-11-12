@@ -7,7 +7,7 @@ namespace csharp
     {
         static void Main(string[] args)
         {
-            MadridDotNet.Recursividad.TheFinalCountdown(1000000);
+            MadridDotNet.Interfaces.EjecutarEjemplo1();
         }
     }
 }

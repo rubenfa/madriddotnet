@@ -1,4 +1,4 @@
-## SINTAXIS
+### C# se organiza con namespaces y clases
 
 ```csharp
 using System;
@@ -29,7 +29,7 @@ namespace Helpers{
 ```
 @[7-22]
 ---
-## SINTAXIS
+### Elixir se organiza con ḿodulos
 
 ```elixir
 defmodule Sintaxis.ConsoleWriter do
@@ -50,7 +50,7 @@ end
 
 ---
 
-### Métodos vs Funciones
+### En C# las clases tienen métodos
 
 
 ```csharp
@@ -86,7 +86,7 @@ namespace Helpers{
 
 ---
 
-### Métodos vs Funciones
+### En Elixir los módulos tienen funciones
 
 ```elixir
 defmodule MadridDotNet.Arity do
@@ -105,6 +105,4 @@ end
 sum/2
 sum/3
 ```
-
-
 

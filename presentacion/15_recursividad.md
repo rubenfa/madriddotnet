@@ -71,7 +71,18 @@ public static void TheFinalCountdown(int n) {
   end
 ```
 
+#### Recursividad y Pattern Matching (listas)
+```elixir
+defmodule MadridDotNet.PatternMatching.Lists do
 
+  def sum([]), do: 0
+  def sum([head | []]), do: head 
+  def sum([head |tail]), do:  head + sum(tail)
+ 
+end
+```
+
+---
 
 
 
