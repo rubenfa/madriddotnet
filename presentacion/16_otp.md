@@ -66,6 +66,6 @@ rescue
 end
 
 ```
-@[](<a href='https://elixirschool.com/es/lessons/advanced/error-handling/'>Ejemplo de Elixir School</a>")
+@[1-8](<a href='https://elixirschool.com/es/lessons/advanced/error-handling/'>Ejemplo de Elixir School</a>")
 
 
