@@ -8,11 +8,10 @@
 
 ### Anatomía de un proceso en Erlang/Elixir
 
-- Un proceso tiene un tamaño aproximado de 1KB (2KB en 64 bits)
-- Un proceso tiene su stack de memoria, un recolector de basura y un buzón de mensajes
-- Un proceso solo se comunica con otros procesos a través de su buzón de mensajes
-- Erlang es tolerante a fallos
-- Erlang permite la actualización en caliente de los procesos.
+- Tamaño aproximado de 1KB (2KB en 64 bits)
+- Cad proceso tiene su stack de memoria, un recolector de basura y un buzón de mensajes
+- Solo se comunica con otros procesos a través de su buzón de mensajes
+- Se puede actualizar en caliente
 
 --- 
 
@@ -23,13 +22,15 @@
 ### Diferencias con los hilos de .NET
 
 - Los procesos en Erlang/Elixir son muy pequeños, por lo que el cambio de contexto es muy fácil. Una máquina normal puede arrancar millones de procesos
-- Debido a la inmutabilidad, y que los procesos no comparten memoria, no hacen falta semáforos, monitores ni cerrojos
-- El recolector de basura es muy sencillo, porque solo tiene que controlar un pequeño proceso, con su propia memoria
-- Como los procesos son independientes, un proceso no puede bloquear a otros (salvo que sean procesos cooperativos y se produzca un ciclo)
+- Inmutabilidad, y no compartir memoria  = no hacen falta semáforos, monitores ni cerrojos
+- Recolector de basura muy simple. Solo controla un proceso, y su memoria
+- Procesos independientes. Un proceso no puede bloquear a otros* 
 
 ---
 
 ![app supervisor](assets/img/appsupervisor.png)
+
+[Designing for scalability with Erlang/OTP](https://www.amazon.es/Designing-Scalability-Erlang-OTP-Fault-Tolerant/dp/1449320732)
 
 ---
 
@@ -37,11 +38,15 @@
 
 ![one for all](assets/img/one_for_all.png)
 
+[Designing for scalability with Erlang/OTP](https://www.amazon.es/Designing-Scalability-Erlang-OTP-Fault-Tolerant/dp/1449320732)
+
 ---
 
 ### Gestión de los procesos con distintas estrategias
 
 ![one for one](assets/img/one_for_one.png)
+
+[Designing for scalability with Erlang/OTP](https://www.amazon.es/Designing-Scalability-Erlang-OTP-Fault-Tolerant/dp/1449320732)
 
 ---
 
@@ -49,7 +54,7 @@
 
 ![rest for one](assets/img/rest_for_one.png)
 
-footnote : "<a href='https://elixirschool.com/es/lessons/advanced/error-handling/'>Ejemplo de Elixir School</a>"
+[Designing for scalability with Erlang/OTP](https://www.amazon.es/Designing-Scalability-Erlang-OTP-Fault-Tolerant/dp/1449320732)
 
 ---
 
@@ -66,6 +71,7 @@ rescue
 end
 
 ```
-@[1-8](<a href='https://elixirschool.com/es/lessons/advanced/error-handling/'>Ejemplo de Elixir School</a>")
+
+[Ejemplo de Elixir School](https://elixirschool.com/es/lessons/advanced/error-handling/)
 
 
