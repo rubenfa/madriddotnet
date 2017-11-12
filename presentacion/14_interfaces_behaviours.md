@@ -16,9 +16,9 @@ public class CalculadorIVAReducido:CalculadorImpuestos {
         return importe * 1.10M;
     }
 }
-        
-```
 
+```
+---
 ### En Elixir tenemos Behaviours
 
 ```elixir
