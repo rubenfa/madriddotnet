@@ -209,6 +209,6 @@ switch (shape)
 
 #### En definitiva el pattern matching es magia
 
-![Magic](assets/img/)magic.gif)
+![Magic](assets/img/magic.gif)
 
 
