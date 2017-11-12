@@ -1,4 +1,4 @@
-### En Elixir todo es Pattern Matching
+### Pattern Matching
 
 ![Image-Absolute](assets/img/pattern-matching.jpg)
 ---
@@ -50,8 +50,6 @@ iex(2)> {:ok, message} = {:error, "El proceso ha fallado"}
 ```
 ---
 
----
-
 #### Elixir siempre intenta hacer Pattern Matching
 
 ```
@@ -73,6 +71,8 @@ iex(5)> [1, 3, 2] = a
       _ -> IO.puts("Result not macthed")
  end
 ```
+
+---
 
 #### Pattern Matching en funciones (con cláusulas de guarda)
 
