@@ -1,4 +1,4 @@
-### C# se organiza con namespaces y clases
+### C# se organiza en namespaces y clases
 
 ```csharp
 using System;
@@ -29,7 +29,7 @@ namespace Helpers{
 ```
 @[7-22]
 ---
-### Elixir se organiza con ḿodulos
+### Elixir se organiza en módulos
 
 ```elixir
 defmodule Sintaxis.ConsoleWriter do

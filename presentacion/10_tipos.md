@@ -23,25 +23,6 @@ lista.add("cuatro");
 ---
 
 ### TIPOS
-#### Listas clave valor, en Elixir
-
-``` elixir
-iex(23)> [{:nombre, "Rubén"}, {:apellido,"Fernández"}, {:edad, 22}]
-[nombre: "Rubén", apellido: "Fernández", edad: 22]
-iex(24)> [nombre: "Rubén", apellido: "Fernández", edad: 22]
-[nombre: "Rubén", apellido: "Fernández", edad: 22]
-iex(25)> persona = [nombre: "Rubén", apellido: "Fernández", edad: 22]
-[nombre: "Rubén", apellido: "Fernández", edad: 22]
-iex(26)> persona[:nombre]
-"Rubén"
-```
-@[1-2]
-@[3-4]
-@[5-8]
-
----
-
-### TIPOS
 #### Tuplas en Elixir
 
 ``` elixir
@@ -60,6 +41,7 @@ iex(22)> result_message
 
 ---
 
+
 ### TIPOS
 #### Tuplas en C# #
 
@@ -68,6 +50,7 @@ var tupla = new Tuple<int, string, string>(0, "error", "Variable not found");
 var code = tupla.Item1;
 var resultType = tupla.Item2;
 var message = tupla.Item3;
+````
 
 ```csharp
 (int code, string resultType, string message) = (0, "error", "Variable not found");
@@ -87,6 +70,25 @@ public static (int code, string resultType, string message) GetErrorCode() {
 var (code, _, message) = GetErrorCode();
 Console.WriteLine($"Code: {code}, Message: { message}");
 ```
+
+---
+
+### TIPOS
+#### Listas clave valor, en Elixir
+
+``` elixir
+iex(23)> [{:nombre, "Rubén"}, {:apellido,"Fernández"}, {:edad, 22}]
+[nombre: "Rubén", apellido: "Fernández", edad: 22]
+iex(24)> [nombre: "Rubén", apellido: "Fernández", edad: 22]
+[nombre: "Rubén", apellido: "Fernández", edad: 22]
+iex(25)> persona = [nombre: "Rubén", apellido: "Fernández", edad: 22]
+[nombre: "Rubén", apellido: "Fernández", edad: 22]
+iex(26)> persona[:nombre]
+"Rubén"
+```
+@[1-2]
+@[3-4]
+@[5-8]
 
 ---
 

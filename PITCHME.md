@@ -10,5 +10,7 @@
 ---?include=presentacion/10_tipos.md
 ---?include=presentacion/11_imperativo_funcional.md
 ---?include=presentacion/12_funciones_metodos.md
----?include=presentacion/13_recursividad.md
+---?include=presentacion/13_pattern_matching.md
+---?include=presentacion/14_interfaces_behaviours.md
+---?include=presentacion/15_recursividad.md
 
