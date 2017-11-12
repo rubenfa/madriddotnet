@@ -188,29 +188,27 @@ ends
 #### En C# 7 ya podemos usarlo
 
 ```csharp
-public static double ComputeArea_Version3(object shape)
+switch (shape)
 {
-    switch (shape)
-    {
-        case Square s when s.Side == 0:
-        case Circle c when c.Radius == 0:
-            return 0;
+   case Square s when s.Side == 0:
+   case Circle c when c.Radius == 0:
+       return 0;
 
-        case Square s:
-            return s.Side * s.Side;
-        case Circle c:
-            return c.Radius * c.Radius * Math.PI;
-        default:
-            throw new ArgumentException(
-                message: "shape is not a recognized shape",
-                paramName: nameof(shape));
-    }
+   case Square s:
+       return s.Side * s.Side;
+   case Circle c:
+       return c.Radius * c.Radius * Math.PI;
+   default:
+       throw new ArgumentException(
+          message: "shape is not a recognized shape",
+          paramName: nameof(shape));
 }
-``` 
+```
+
 ---
 
 #### En definitiva el pattern matching es magia
 
-![Image-Absolute](assets/img/magic.gif)
+![Magic](assets/img/)magic.gif)
 
 
