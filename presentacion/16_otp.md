@@ -21,7 +21,7 @@
 
 ### Diferencias con los hilos de .NET
 
-- Los procesos en Erlang/Elixir son muy pequeños, por lo que el cambio de contexto es muy fácil. Una máquina normal puede arrancar millones de procesos
+- Los procesos en Erlang/Elixir son muy pequeños. Cambio de contexto es muy fácil. - Una máquina normal puede arrancar millones de procesos
 - Inmutabilidad, y no compartir memoria  = no hacen falta semáforos, monitores ni cerrojos
 - Recolector de basura muy simple. Solo controla un proceso, y su memoria
 - Procesos independientes. Un proceso no puede bloquear a otros* 
