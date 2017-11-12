@@ -1,7 +1,6 @@
 #### Hablemos de recursividad
 
-!(assets/img/handson.gif)
-
+![Go](assets/img/handon.gif)
 
 ---
 
