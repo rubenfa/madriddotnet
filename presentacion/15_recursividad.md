@@ -1,6 +1,6 @@
 #### Hablemos de recursividad
 
-!(assets/img/handson.png)
+!(assets/img/handson.gif)
 
 
 ---
