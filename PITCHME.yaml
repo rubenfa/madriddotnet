@@ -1,5 +1,4 @@
 logo : assets/img/logo.png
-theme : night
 highlight : railscasts
 theme-override : assets/css/PITCHME.css
 
