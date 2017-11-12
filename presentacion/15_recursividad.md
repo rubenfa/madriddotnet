@@ -31,7 +31,7 @@ public static void Fibonacci(int a, int b, int counter, int number)
 
 ---
 
-### Recursividad de cola en C#
+### Recursividad de cola en C# #
 #### ¿Qué pasa si pasamos 1000000 al método?
 
 ```csharp
@@ -51,6 +51,8 @@ public static void TheFinalCountdown(int n) {
 
 +++?image=assets/img/surprised.gif
 
+---
+
 - C# no permite la optimización de llamadas recursivas de cola (al menos en algunos casos)
 - F# si lo permite
 
@@ -69,6 +71,7 @@ public static void TheFinalCountdown(int n) {
 
   end
 ```
+---
 
 #### Recursividad y Pattern Matching (listas)
 ```elixir
