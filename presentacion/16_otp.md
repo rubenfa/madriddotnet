@@ -8,10 +8,7 @@
 
 ### Anatomía de un proceso en Erlang/Elixir
 
-- Tamaño aproximado de 1KB (2KB en 64 bits)
-- Cad proceso tiene su stack de memoria, un recolector de basura y un buzón de mensajes
-- Solo se comunica con otros procesos a través de su buzón de mensajes
-- Se puede actualizar en caliente
+![Modelo de actores](assets/img/proceso.png)
 
 --- 
 
@@ -19,10 +16,11 @@
 
 --- 
 
-### Diferencias con los hilos de .NET
+### Diferencias de un proceso con los hilos de .NET
 
-- Los procesos en Erlang/Elixir son muy pequeños. Cambio de contexto es muy fácil. - Una máquina normal puede arrancar millones de procesos
-- Inmutabilidad, y no compartir memoria  = no hacen falta semáforos, monitores ni cerrojos
+- Los procesos en Erlang/Elixir son muy pequeños. Cambio de contexto es muy fácil. 
+- Una máquina normal puede arrancar millones de procesos
+- Inmutabilidad, y no compartir memoria = no hacen falta semáforos, monitores ni cerrojos
 - Recolector de basura muy simple. Solo controla un proceso, y su memoria
 - Procesos independientes. Un proceso no puede bloquear a otros* 
 
@@ -74,4 +72,14 @@ end
 
 [Ejemplo de Elixir School](https://elixirschool.com/es/lessons/advanced/error-handling/)
 
+---
 
+### GenServer
+
+---?code=src/elixir/lib/otp/genserver.ex
+
+@[35-45](Llamadas síncronas)
+@[47-53](Llamadas asíncronas)
+@[17-27](Interface para llamadas síncronas)
+@[9-15](Interface para llamadas asíncronas)
+@[5-7]
