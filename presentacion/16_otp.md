@@ -83,3 +83,53 @@ end
 @[17-27](Interface para llamadas síncronas)
 @[9-15](Interface para llamadas asíncronas)
 @[5-7]
+
+---
+### Ejemplo en funcionamiento
+    
+```
+iex(1)> alias MadridDotNet.OTP.Calculator
+alias MadridDotNet.OTP.Calculator
+MadridDotNet.OTP.Calculator
+
+iex(2)> Calculator.start_link(0, :calculadora1)
+Calculator.start_link(0, :calculadora1)
+{:ok, #PID<0.153.0>}
+
+iex(3)> MadridDotNet.OTP.Supervisor.start_calculator(:calculadora1)
+MadridDotNet.OTP.Supervisor.start_calculator(:calculadora1)
+
+iex(4)> MadridDotNet.OTP.Supervisor.start_calculator(:calculadora2)
+MadridDotNet.OTP.Supervisor.start_calculator(:calculadora2)
+```
+---
+
+### Ejemplo en funcionamiento
+
+```
+iex(6)> Calculator.add(:calculadora1, 5)
+Calculator.add(:calculadora1, 5)
+:ok
+iex(7)> Calculator.add(:calculadora1, 2)
+Calculator.add(:calculadora1, 2)
+:ok
+iex(8)> Calculator.get_current(:calculadora1)
+Calculator.get_current(:calculadora1)
+```
+---
+### Ejemplo en funcionamiento
+
+```
+iex(9)> Calculator.add(:calculadora2, 2)
+Calculator.add(:calculadora2, 2)
+:ok
+iex(10)> Calculator.mult(:calculadora2, 2)
+Calculator.mult(:calculadora2, 2)
+4
+```
+---
+
+![observer](assets/img/observer.png)
+
+
+
