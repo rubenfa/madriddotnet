@@ -131,5 +131,17 @@ Calculator.mult(:calculadora2, 2)
 
 ![observer](assets/img/observer.png)
 
+---
 
+### Para mantener el estado de un proceso podemos usar agente
 
+- Un agente en Elixir, es un proceso en segundo plano que mantiene el estado
+- El estado se puede consultar o modificar desde otros procesos
+- El agente también puede colocarse en un árbol de supervisión
+
+---
+### Agente
+---?code=src/elixir/lib/otp/agent.ex
+@[2](Usamos la macro Agent)
+@[4-6](Arrancamos un agente referenciado con el nombre del módulo)
+@[8-14]

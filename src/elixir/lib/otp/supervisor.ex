@@ -1,7 +1,7 @@
 defmodule MadridDotNet.OTP.Supervisor do
   use Supervisor
 
-  alias MadridDotNet.OTP.Calculator
+  alias MadridDotNet.OTP.Calculator 
 
   def start_link do
     Supervisor.start_link(__MODULE__, [], name: :supervisor)
