@@ -41,6 +41,9 @@ iex(22)> result_message
 @[3-4]
 @[5-10]
 
+Note:
+Las tuplas en Elixir se utilizan muchísimo
+
 ---
 
 ### TIPOS
@@ -56,6 +59,11 @@ var message = tupla.Item3;
 ```csharp
 (int code, string resultType, string message) = (0, "error", "Variable not found");
 ```
+
+Note:
+
+Las tuplas en C# eran un infierno, y por eso las utilizábamos tan poco.
+En C# 7 han mejorado mucho con las ValueTuples y son mucho más fáciles de utilizar
 ---
 
 ### TIPOS
@@ -91,6 +99,9 @@ iex(26)> persona[:nombre]
 @[3-4]
 @[5-8]
 
+Note:
+
+Son como diccionarios en C#. Azucar sintáctico para no tener que escribir tuplas.
 ---
 
 ### TIPOS
@@ -110,7 +121,13 @@ iex(3)> persona.edad
 iex(4)> persona.nombre
 "Rubén"
 ```
+
+Note:
+Se definen en un módulo y son estructuras de datos con una estructura fija y específica.
+Permiten dot notation.
 ---
+
+
 
 ### TIPOS
 #### Maps
@@ -123,6 +140,9 @@ iex(29)> persona = %{ :nombre => "Rubén", "apellido" => "Fernández", 22 => fal
 iex(30)> persona[22]
 false
 ```
+Note:
+
+Parecidos a objetos JSON, pero teniendo en cuenta que la clave puede ser de cualquier tipo (no solo string)
 ---
 
 ### TIPOS

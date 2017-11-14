@@ -8,6 +8,9 @@
 - Inicialmente pensado para gestionar centralitas telefónicas.
 - Utiliza un modelo de actores para gestionar concurrencia y paralelismo
 
+Nota:
+concurrencia no es lo mismo que paralelismo. Concurrencia es cuando tienes muchas peticiones y vas rotando para satisfacerlas.
+Paralelismo es cuando haces dos tareas a la vez.
 ---
 
 ### Anatomía de un proceso en Erlang/Elixir
@@ -22,11 +25,13 @@
 
 ### Diferencias de un proceso con los hilos de .NET
 
-- Procesos muy pequeños. Cambio de contexto sencillo
-- Una máquina normal puede arrancar millones de procesos
+- Procesos muy pequeños. Cambio de contexto sencillo. 
 - Inmutabilidad, y no compartir memoria = no hacen falta semáforos, monitores ni cerrojos
 - Recolector de basura muy simple. 
 - Procesos independientes. Un proceso no puede bloquear a otros* 
+
+Note:
+Una máquina puede arrancar millones de procesos. 
 
 ---
 
@@ -144,6 +149,9 @@ Calculator.mult(:calculadora2, 2)
 
 ![observer](assets/img/observer.png)
 
+Note:
+herramienta observer proporcionada por Erlang. Puedes ver el árbol de supervisión, la cola de mensajes, el estado actual,
+matar procesos etc.
 ---
 
 ### Para mantener el estado de un proceso podemos usar un agente
@@ -153,7 +161,7 @@ Calculator.mult(:calculadora2, 2)
 - El agente también puede colocarse en un árbol de supervisión
 
 ---
-### Ejemplo de Agent
+### Agent
 ---?code=src/elixir/lib/otp/agent.ex
 @[2](Usamos la macro Agent)
 @[4-6](Arrancamos un agente referenciado con el nombre del módulo)

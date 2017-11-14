@@ -21,6 +21,9 @@ public static void Fibonacci(int a, int b, int counter, int number)
 }`
 ```
 
+Note:
+En C# podemos utilizar recursividad. Típico ejemplo de Fibonacci.
+
 ---
 
 #### ¿Y la optimización por recursividad de cola? 
@@ -45,6 +48,9 @@ public static void TheFinalCountdown(int n) {
      TheFinalCountdown(n);
 }
 ```
+Note:
+Ejemplo de recursividad de cola en C#. 
+
 ---
 
 ![StackOverflow](assets/img/stackoverflow.jpg)

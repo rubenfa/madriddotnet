@@ -8,6 +8,9 @@
  var resultado = f(2,3); // Devuelve 5 
 ```
 
+Note:
+Ejemplo de definición de función anónima y llamada de la misma
+
 ---
 
 ### Funciones anónimas en  C# #
@@ -19,6 +22,8 @@ int resultado  =
        new Func<int,int,int>((x,y) => x +y)(2,3) ;
 ```
 
+Note:
+Definición de función y llamada en la misma línea
 ---
 
 ### Funciones anónimas en Elixir #
@@ -27,6 +32,9 @@ int resultado  =
 f = fn(x, y) -> x + y end
 f.(3,5)
 ```
+Note:
+En Elixir se hace muy parecido
+
 ---
 
 ### Funciones anónimas en Elixir #
@@ -34,6 +42,8 @@ f.(3,5)
 ```elixir
 (fn(x, y) -> x + y end).(3,5)
 ```
+Note:
+Y se puede llamar en la misma línea
 
 ---
 
@@ -46,16 +56,19 @@ public static void Calculador (Func<int, int, int> f) {
 }
 ```
 
-```chsarp
+```csharp
 Funciones.Calculador((x,y)=> x+y); // escribe 5
 Funciones.Calculador((x,y)=> x-y); // escribe 1
 ```
+
+Note:
+Una función de primer orden es una función, que recibe otra función como parámetro
 
 ---
 ### Funciones de primer orden en Elixir
 
 ```elixir
-defp calculador(f) do
+def calculador(f) do
   IO.puts(f.(3,2))
 end
 

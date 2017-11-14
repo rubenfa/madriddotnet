@@ -21,6 +21,11 @@ public class CalculadorIVAReducido:CalculadorImpuestos {
 }
 
 ```
+
+Note: 
+las interfaces, junto con las clases y la herencia, nos proporcionan polimorfismo en C#.
+Ejemplo con una calculadora de impuestos
+
 ---
 ### En Elixir tenemos Behaviours
 
@@ -51,6 +56,7 @@ end
 @[6]
 @[13-19]
 
+
 --- 
 ### Pero en Elixir también tenemos Protocols
 
@@ -61,6 +67,9 @@ defprotocol Size do
 end
 ```
 [Getting Started Elixir lang](http://elixir-lang.github.io/getting-started/protocols.html)
+
+Note:
+Los behaviours nos proporcionan polimorfismo a nivel de módulo, los protocols polimorfismo a nivel de tipo
 
 ---
 ### Implementaciones

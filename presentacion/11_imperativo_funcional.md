@@ -12,6 +12,9 @@ foreach(var num in numList)
 
 ```
 
+Note:
+C# es un lenguaje generalmente imperativo. Lo del cómo es una simplificación pero vale para entendernos.
+
 --- 
 
 ### Pero C# también puede ser declarativo (¿qué?)
@@ -19,6 +22,9 @@ foreach(var num in numList)
 ```csharp
 var results = collection.Where( num => num % 2 != 0);
 ```
+
+Note:
+Pero C# como tiene cada vez más características funcionales puede ser más declarativo
 --- 
 
 ### Elixir es funcional, pero hay que hacerlo bien
@@ -83,6 +89,9 @@ end
 ![Image-Absolute](assets/img/functional-thinking.png)
 [Programming Elixir by Dave Thomas](https://pragprog.com/book/elixir/programming-elixir)
 
+Note:
+Para hacer programación funcional hay que cambiar un poco el chip. Aquí estamos transformando datos.
+Un buen ejemplo es una llamada HTTP, que vas transformando hasta conseguir la respuesta
 ---
 
 ### Además esto nos suena
@@ -98,5 +107,9 @@ var result =
 System.Console.WriteLine(string.Join("", result));
 
 ```
+
+Note:
+C#, con LINQ también puede ser muy parecido a Elixir y utlizar pipes. Siendo más declarativos, el 
+código puede **quedar mucho más expresivo**
 
 +++?image=assets/img/ok.gif

@@ -1,6 +1,9 @@
 ### Pattern Matching
 
 ![Image-Absolute](assets/img/pattern-matching.jpg)
+
+Note:
+Killer feature de Elixir. Muy fácil de usar. Hace el código mucho más expresivo.
 ---
 
 #### El símbolo `=` se conoce como *match operator*
@@ -188,6 +191,8 @@ defmodule MadridDotNet.PatternMatching.FizzBuzzSinPattern do
 end
 ```
 
+Note:
+típico ejemplo FizzBuzz sin utilizar pattern matching. No queda mal, pero se puede mejorar
 ---
 
 ```elixir
