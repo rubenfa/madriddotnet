@@ -17,7 +17,7 @@ namespace MadridDotNet.Using
 
 ```
 @[1-3]
-@[11]
+@[10]
 
 ---
 
@@ -87,3 +87,31 @@ end
 
 @[5-7]
 @[3]
+
+---
+### Elixir, use
+
+```elixir
+defmodule AssertionTest do
+  use ExUnit.Case, async: true
+
+  test "always pass" do
+    assert true
+  end
+end
+```
+
+---
+
+```elixir
+defmodule AssertionTest do
+  require ExUnit.Case
+  ExUnit.Case.__using__([async: true])
+
+  test "always pass" do
+    assert true
+  end
+end
+```
+
+
