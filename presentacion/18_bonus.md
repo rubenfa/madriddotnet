@@ -60,9 +60,9 @@ mix test
 ### Entornos
 
 Por defecto, Mix utiliza tres entornos
-- :dev, dónde Mix ejecuta tareas (como compilar) por defecto  
-- :test, utilizado por Mix.test
-- :prod, dónde se ejecuta el código de producción
+- `:dev`, dónde Mix ejecuta tareas (como compilar) por defecto  
+- `:test`, utilizado por Mix.test
+- `:prod`, dónde se ejecuta el código de producción
 
 ---
 #### Se configura con una variable de entorno
