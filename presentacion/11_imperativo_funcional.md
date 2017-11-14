@@ -81,7 +81,8 @@ end
 
 #### La programación funcional va de transformar datos
 ![Image-Absolute](assets/img/functional-thinking.png)
-<span style="font-size:0.6em; color:gray">See <a href="https://pragprog.com/book/elixir/programming-elixir" target="_blank"> Programming Elixir by Dave Thomas</a> </span>
+[Programming Elixir by Dave Thomas](https://pragprog.com/book/elixir/programming-elixir)
+
 ---
 
 ### Además esto nos suena
@@ -98,4 +99,4 @@ System.Console.WriteLine(string.Join("", result));
 
 ```
 
-+++?image=assets/img/right.gif
++++?image=assets/img/ok.gif

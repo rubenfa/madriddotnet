@@ -35,8 +35,11 @@ iex(7)> {x, y, z} = {100, 200}
 {x, y, z} = {100, 200}
 ** (MatchError) no match of right hand side value: {100, 200}
 ```
----
+@[1-3]
+@[5-7]
+@[9-11]
 
+---
 #### Elixir siempre intenta hacer Pattern Matching
 
 ```
@@ -48,20 +51,25 @@ iex(2)> {:ok, message} = {:error, "El proceso ha fallado"}
 {:ok, message} = {:error, "El proceso ha fallado"}
 ** (MatchError) no match of right hand side value: {:error, "El proceso ha fallado"}
 ```
----
+@[1-3]
+@[5-7]
 
+---
 #### Elixir siempre intenta hacer Pattern Matching
 
 ```
 iex(4)> a = [1, 2, 3]
 a = [1, 2, 3]
 [1, 2, 3]
+
 iex(5)> [1, 3, 2] = a
 [1, 3, 2] = a
 ** (MatchError) no match of right hand side value: [1, 2, 3]
 ```
----
+@[1-3]
+@[5-7]
 
+---
 #### También en las sentencias condicionales
 
 ```elixir
@@ -71,7 +79,6 @@ iex(5)> [1, 3, 2] = a
       _ -> IO.puts("Result not macthed")
  end
 ```
-
 ---
 
 #### Pattern Matching en funciones (con cláusulas de guarda)
@@ -107,6 +114,19 @@ end
 ```
 @[3-6]
 @[7]
+
+---
+
+#### Recursividad y Pattern Matching (listas)
+```elixir
+defmodule MadridDotNet.PatternMatching.Lists do
+
+  def sum([]), do: 0
+  def sum([head | []]), do: head 
+  def sum([head |tail]), do:  head + sum(tail)
+ 
+end
+```
 
 ---
 
@@ -207,7 +227,7 @@ switch (shape)
 
 ---
 
-#### En definitiva el pattern matching es magia
+#### En definitiva para mí el pattern matching es magia
 
 ![Go](assets/img/magic.gif)
 

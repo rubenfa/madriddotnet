@@ -10,7 +10,7 @@
 @[20-34]
 @[35-37](Documentación de la función)
 
----?code=src/elixir/lib/test/elixir_test.ex
+---?code=src/elixir/lib/test/elixir_test.exs
 @[2](Macro de ExUnit)
 @[9-11]
 

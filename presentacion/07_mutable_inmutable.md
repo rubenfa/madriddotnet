@@ -1,4 +1,4 @@
-### C# es mutable, Elixir inmutable
+### Mutabilidad vs Inmutabilidad
 
 ---
 

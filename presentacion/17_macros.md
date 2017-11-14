@@ -1,3 +1,5 @@
+### Metaprogramación
+---
 ### Elixir permite utilizar macros
 
 - Con macros podemos hacer metaprogramación, es decir podemos extender el lenguaje
@@ -19,16 +21,16 @@
 
 ### AST (Abstract Syntax Tree)
 
-- Cada instrucción que escribimos en Elixir se representa con una tupla de tres elementos
+Cada instrucción que escribimos en Elixir se representa con una tupla de tres elementos
 
 ```
 iex(1)> quote do 1 + 2 end
 {:+, [context: Elixir, import: Kernel], [1, 2]}
 ```
 
-- Un atom con la llamada a la función, o otra tupla, representando otro nodo AST 
-- Metadatos sobre la expresión |
-- Lista de parámetros |
+1. Un atom con la llamada a la función, o otra tupla, representando otro nodo AST
+2. Metadatos sobre la expresión 
+3. Lista de parámetros
 
 ---
 ### Un ejemplo más complejo
@@ -44,7 +46,7 @@ iex(1)> quote do 1 + 2 end
 unless 5==2 do
   "enter"
 end
-````
+```
 --- 
 ```elixir
 defmodule ControlFlow do

@@ -1,5 +1,5 @@
 ### Tipos utilizados en Elixir
-----
+---
 ### TIPOS
 #### Listas en Elixir
 ```

@@ -1,3 +1,6 @@
+### Polimorfismo
+
+---
 ### En C# podemos usar interfaces #
 
 ```csharp
@@ -48,6 +51,31 @@ end
 @[6]
 @[13-19]
 
+--- 
+### Pero en Elixir también tenemos Protocols
 
+```elixir
+defprotocol Size do
+  @doc "Calculates the size (and not the length!) of a data structure"
+  def size(data)
+end
+```
+[Getting Started Elixir lang](http://elixir-lang.github.io/getting-started/protocols.html)
 
+---
+### Implementaciones
+```elixir
+defimpl Size, for: BitString do
+  def size(string), do: byte_size(string)
+end
 
+defimpl Size, for: Map do
+  def size(map), do: map_size(map)
+end
+
+defimpl Size, for: Tuple do
+  def size(tuple), do: tuple_size(tuple)
+end
+```
+
+[Getting Started Elixir lang](http://elixir-lang.github.io/getting-started/protocols.html)

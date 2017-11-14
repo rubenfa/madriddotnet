@@ -1,4 +1,4 @@
-### C# es estático, mientras que Elixir es dinámico
+### Tipado de C# y Elixir
 
 ---
 ### C# es estático #

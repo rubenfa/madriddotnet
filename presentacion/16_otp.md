@@ -127,6 +127,7 @@ Calculator.add(:calculadora1, 2)
 :ok
 iex(8)> Calculator.get_current(:calculadora1)
 Calculator.get_current(:calculadora1)
+7
 ```
 ---
 ### Ejemplo en funcionamiento
@@ -163,5 +164,5 @@ Calculator.mult(:calculadora2, 2)
 ### Alternativas para manejar el estado
 
 - ETS. Tablas en memoria para guardar tuplas (clave/valor)
-- Mnesia. Base de datos distribuida, persistente, con sistema de índices etc.a
+- Mnesia. Base de datos distribuida, persistente, con sistema de índices etc.
 - Otras bases de datos
