@@ -24,6 +24,7 @@
 
 ---?code=src/elixir/mix.exs
 
+---
 ### Mix
 
 - Herramienta de *build* al estilo de dotnetcli
@@ -36,30 +37,23 @@
 
 ### Ejemplos
 
-´´´
+```
 mix new madriddotnet
-´´´
----
+```
 
-### Ejemplos
-
-´´´
+```
 mix deps.get
-´´´
+```
 ---
 
 ### Ejemplos
 
-´´´
+```
 mix compile
-´´´
----
-
-### Ejemplos
-
-´´´
+```
+```
 mix test
-´´´
+```
 
 --- 
 
