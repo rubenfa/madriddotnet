@@ -1,4 +1,4 @@
-### Referencias
+### Libros y referencias
 
 [elixir-lang.github.io](), Getting started
 
