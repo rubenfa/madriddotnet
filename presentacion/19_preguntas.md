@@ -9,5 +9,5 @@
 
 ### ¿Preguntas?
 
-[thankyou](assets/img/thankyou.gif)
+[thankyou](assets/img/rest.gif)
 

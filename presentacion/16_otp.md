@@ -16,16 +16,16 @@
 
 --- 
 
-![Modelo de actores](assets/img/ActorModel.png)gi
+![Modelo de actores](assets/img/ActorModel.png)
 
 --- 
 
 ### Diferencias de un proceso con los hilos de .NET
 
-- Los procesos en Erlang/Elixir son muy pequeños. Cambio de contexto es muy fácil. 
+- Procesos muy pequeños. Cambio de contexto sencillo
 - Una máquina normal puede arrancar millones de procesos
 - Inmutabilidad, y no compartir memoria = no hacen falta semáforos, monitores ni cerrojos
-- Recolector de basura muy simple. Solo controla un proceso, y su memoria
+- Recolector de basura muy simple. 
 - Procesos independientes. Un proceso no puede bloquear a otros* 
 
 ---
@@ -94,12 +94,20 @@ end
 ```
 iex(1)> alias MadridDotNet.OTP.Calculator
 alias MadridDotNet.OTP.Calculator
-MadridDotNet.OTP.Calculator
+```
 
+---
+### Ejemplo en funcionamiento
+    
+```
 iex(2)> Calculator.start_link(0, :calculadora1)
 Calculator.start_link(0, :calculadora1)
 {:ok, #PID<0.153.0>}
+```
 
+---
+### Ejemplo en funcionamiento
+```
 iex(3)> MadridDotNet.OTP.Supervisor.start_calculator(:calculadora1)
 MadridDotNet.OTP.Supervisor.start_calculator(:calculadora1)
 
@@ -137,14 +145,14 @@ Calculator.mult(:calculadora2, 2)
 
 ---
 
-### Para mantener el estado de un proceso podemos usar agente
+### Para mantener el estado de un proceso podemos usar un agente
 
 - Un agente en Elixir, es un proceso en segundo plano que mantiene el estado
 - El estado se puede consultar o modificar desde otros procesos
 - El agente también puede colocarse en un árbol de supervisión
 
 ---
-### Ejemplo
+### Ejemplo de Agent
 ---?code=src/elixir/lib/otp/agent.ex
 @[2](Usamos la macro Agent)
 @[4-6](Arrancamos un agente referenciado con el nombre del módulo)

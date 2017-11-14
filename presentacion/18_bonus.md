@@ -1,4 +1,4 @@
-### BONUS TRACK
+### TESTING, GESTIÓN DE PAQUETES, BUILD ...
 
 ---
 
@@ -36,18 +36,26 @@
 
 ### Ejemplos
 
-
 ´´´
 mix new madriddotnet
 ´´´
+---
+
+### Ejemplos
 
 ´´´
 mix deps.get
 ´´´
+---
+
+### Ejemplos
 
 ´´´
 mix compile
 ´´´
+---
+
+### Ejemplos
 
 ´´´
 mix test
