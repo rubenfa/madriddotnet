@@ -1,3 +1,5 @@
+### Tipos utilizados en Elixir
+----
 ### TIPOS
 #### Listas en Elixir
 ```
@@ -40,7 +42,6 @@ iex(22)> result_message
 @[5-10]
 
 ---
-
 
 ### TIPOS
 #### Tuplas en C# #
@@ -134,7 +135,3 @@ iex(10)> :dos
 iex(11)> :uno == String.to_atom("uno")
 true
 ```
-
-
-
-

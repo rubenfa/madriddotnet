@@ -1,3 +1,7 @@
+### Organización del código
+
+---
+
 ### C# se organiza en namespaces y clases
 
 ```csharp
@@ -25,9 +29,8 @@ namespace Helpers{
         }
     }
 }
-
 ```
-@[7-22]
+
 ---
 ### Elixir se organiza en módulos
 
@@ -47,11 +50,8 @@ defmodule Sintaxis.ConsoleWriter do
 
 end
 ```
-
 ---
-
 ### En C# las clases tienen métodos
-
 
 ```csharp
 using System;
@@ -78,12 +78,9 @@ namespace Helpers{
 
     }
 }
-
 ```
 @[7-13]
 @[15-21]
-
-
 ---
 
 ### En Elixir los módulos tienen funciones

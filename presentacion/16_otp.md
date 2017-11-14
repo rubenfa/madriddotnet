@@ -1,3 +1,7 @@
+### Un poco de OTP (Open Telecom Platform)
+
+---
+
 ### Erlang OTP
 
 - Conjunto de librerías y herramientas utilizadas para gestionar sistemas distribuidos.
@@ -8,11 +12,11 @@
 
 ### Anatomía de un proceso en Erlang/Elixir
 
-![Modelo de actores](assets/img/proceso.png)
+![Proceso](assets/img/proceso.png)
 
 --- 
 
-![Modelo de actores](assets/img/ActorModel.png)
+![Modelo de actores](assets/img/ActorModel.png)gi
 
 --- 
 

@@ -1,5 +1,7 @@
-### C# es estático #
+### C# es estático, mientras que Elixir es dinámico
 
+---
+### C# es estático #
 
 ```csharp
 public class Estatico {

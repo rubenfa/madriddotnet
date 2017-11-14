@@ -1,3 +1,7 @@
+### C# es mutable, Elixir inmutable
+
+---
+
 ### C# es un lenguaje mutable #
 
 ```csharp
@@ -20,7 +24,7 @@ namespace MadridDotNet {
 
 ---
 
-### Elixir es un lenguaje inmutable, pero con rebinding
+### Elixir es un lenguaje inmutable, pero con *rebinding*
 
 ```elixir
 iex(1)> x = 1
@@ -35,7 +39,7 @@ iex(4)> x
 ```
 ---
 
-### Elixir es un lenguaje inmutable, pero con rebinding
+### Elixir es un lenguaje inmutable, pero con *rebinding*
 
 ![Image-Absolute](assets/img/mutable_inmutable.png)
 
