@@ -1,8 +1,13 @@
 defmodule ElixirTest do
   use ExUnit.Case
-  doctest Elixir
+  import ExUnit.CaptureIO
 
-  test "greets the world" do
-    assert Elixir.hello() == :world
+  doctest MadridDotNet.Testing.Test
+
+  alias MadridDotNet.Testing.Test
+
+  test "Se muestra un mensaje en pantalla cuando se suman valores no numéricos" do
+    assert capture_io(fn -> Test.sum("a", 1) end) == "La función sum, solo puede sumar números\n"
   end
+
 end

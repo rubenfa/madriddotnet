@@ -13,5 +13,6 @@
 ---?include=presentacion/13_pattern_matching.md
 ---?include=presentacion/14_interfaces_behaviours.md
 ---?include=presentacion/16_otp.md
-
-
+---?include=presentacion/17_macros.md
+---?include=presentacion/18_bonus.md
+---?include=presentacion/19_preguntas.md
