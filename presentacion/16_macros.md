@@ -33,7 +33,7 @@ iex(1)> quote do 1 + 2 end
 ---
 ### Un ejemplo más complejo
 
-+++?image=assets/img/ast.png?size=auto 90%
++++?image=assets/img/ast.png&size=auto 90%
 
 [Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)
 
