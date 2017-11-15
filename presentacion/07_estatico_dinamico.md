@@ -15,11 +15,13 @@ public class Estatico {
 ```
 error CS0029: No se puede convertir implícitamente el tipo 'string' en 'int'
 ```
----
+
 
 Note:
 C# es de tipado estático, lo cual da mucha seguridad, ya que ayuda a detectar errores
 **en tiempo de compilación**
+
+---
 
 ### Elixir es dinámico, pero de tipado fuerte
 
