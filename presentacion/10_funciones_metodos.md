@@ -12,19 +12,6 @@ Note:
 Ejemplo de definición de función anónima y llamada de la misma
 
 ---
-<!-- 
-### Funciones anónimas en  C# #
-
-```csharp
-// Define la función y la llama.
-// Devuelve 5
-int resultado  = 
-       new Func<int,int,int>((x,y) => x +y)(2,3) ;
-```
-
-Note:
-Definición de función y llamada en la misma línea
---- -->
 
 ### Funciones anónimas en Elixir #
 
