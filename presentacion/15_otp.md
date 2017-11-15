@@ -13,7 +13,7 @@ En los sistemas distribuidos existen dos problemas:
 - Inicialmente pensado para gestionar centralitas telefónicas.
 - Utiliza un modelo de actores para gestionar concurrencia y paralelismo
 
-Nota:
+Note:
 concurrencia no es lo mismo que paralelismo. Concurrencia es cuando tienes muchas peticiones y vas rotando para satisfacerlas.
 Paralelismo es cuando haces dos tareas a la vez.
 ---
