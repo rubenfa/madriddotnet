@@ -63,6 +63,6 @@ end
 
 ---
 
-![Macro Expansion](assets/img/macroexpansion.png)
+---?image=assets/img/macroexpansion.png&size=auto 90%
 
-[Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)
+
