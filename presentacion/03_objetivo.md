@@ -8,6 +8,8 @@
 Note:
 Hay varios lenguajes en el Stack .NET. Explicar porque C# sí y F# y VB.NET
 **Preguntar si alguien trabaja con Visual Basic**
+---
+  * 
 
 +++?image=assets/img/notsorry.gif
 
