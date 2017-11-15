@@ -157,25 +157,3 @@ Note:
 herramienta observer proporcionada por Erlang. Puedes ver el árbol de supervisión, la cola de mensajes, el estado actual,
 matar procesos etc.
 
-<!-- ---
-
-### Para mantener el estado de un proceso podemos usar un agente
-
-- Un agente en Elixir, es un proceso en segundo plano que mantiene el estado
-- El estado se puede consultar o modificar desde otros procesos
-- El agente también puede colocarse en un árbol de supervisión
-
----
-### Agent
----?code=src/elixir/lib/otp/agent.ex
-@[2](Usamos la macro Agent)
-@[4-6](Arrancamos un agente referenciado con el nombre del módulo)
-@[8-14]
-
-
----
-### Alternativas para manejar el estado
-
-- ETS. Tablas en memoria para guardar tuplas (clave/valor)
-- Mnesia. Base de datos distribuida, persistente, con sistema de índices etc.
-- Otras bases de datos -->
