@@ -16,7 +16,7 @@ Note:
 - Inmutable
 - Las funciones son miembros de primera clase
 - Recursividad
-- Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986) 
+- Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986)
 
 Note:
 - Dinámico. **MIEDO**
