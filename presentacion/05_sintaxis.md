@@ -31,7 +31,7 @@ namespace Helpers{
 }
 ```
 
-Note: 
+Note:
 Típico ejemplo de C#: namespace, clase, campos, y métodos
 ---
 ### Elixir se organiza en módulos
