@@ -61,8 +61,6 @@ end
 
 [Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)
 
----
-
 ---?image=assets/img/macroexpansion.png&size=auto 90%
 
 
