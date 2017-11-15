@@ -32,17 +32,11 @@ Definición de función y llamada en la misma línea
 f = fn(x, y) -> x + y end
 f.(3,5)
 ```
----
 
-<!-- ### Funciones anónimas en Elixir #
-
-```elixir
-(fn(x, y) -> x + y end).(3,5)
-```
 Note:
-Y se puede llamar en la misma línea
+En Elixir se hace muy parecido
 
---- -->
+---
 
 ### Funciones de primer orden en C# #
 
