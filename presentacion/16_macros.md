@@ -7,7 +7,7 @@
 
 ---
 #### La primera regla de las macros:
-- No escribas macros (al menos si lo puedes hacer con una función)
+- No escribas macros 
 
 ![no](assets/img/nono.gif)
 
