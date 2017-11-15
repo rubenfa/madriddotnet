@@ -11,6 +11,5 @@ Note:
 - Explicar las cosas diferentes de Elixir
 
 
-
 +++?image=assets/img/notsorry.gif
 
