@@ -6,23 +6,6 @@ Note:
 Killer feature de Elixir. Muy fácil de usar. Hace el código mucho más expresivo.
 ---
 
-#### El símbolo `=` se conoce como *match operator*
-
-```
-iex(1)> x = 1
-x = 1
-1
-
-iex(2)> 1 = x
-1 = x
-1
-
-iex(3)> 2 = x
-2 = x
-** (MatchError) no match of right hand side value: 1
-``` 
-
---- 
 #### Elixir siempre intenta hacer Pattern Matching
 
 ```
