@@ -2,8 +2,8 @@
 
 - Elixir 
 - C# 
-- ~~F#~~ |
-- ~~Visual Basic .NET~~ |
+- ~~F#~~ 
+- ~~Visual Basic .NET~~
 
 Note:
 Hay varios lenguajes en el Stack .NET. Explicar porque C# sí y F# y VB.NET

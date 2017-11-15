@@ -21,8 +21,8 @@
 - Es el gestor de paquetes de Elixir (como Nuget)
 - Válido tanto en Elixir como en Erlang
 
-
----?code=src/elixir/mix.exs
+---?code=src/elixir/mix.exs 
+@[21-26]
 
 ---
 ### Mix
@@ -40,14 +40,9 @@
 ```
 mix new madriddotnet
 ```
-
 ```
 mix deps.get
 ```
----
-
-### Ejemplos
-
 ```
 mix compile
 ```

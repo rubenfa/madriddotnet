@@ -30,17 +30,12 @@ iex(3)> {a, b, c} = {1, 2, 3}
 {a, b, c} = {1, 2, 3}
 {1, 2, 3}
 
-iex(4)> a
-a
-1
-
 iex(7)> {x, y, z} = {100, 200}
 {x, y, z} = {100, 200}
 ** (MatchError) no match of right hand side value: {100, 200}
 ```
 @[1-3]
 @[5-7]
-@[9-11]
 
 ---
 #### Elixir siempre intenta hacer Pattern Matching

@@ -12,7 +12,7 @@ Note:
 Ejemplo de definición de función anónima y llamada de la misma
 
 ---
-
+<!-- 
 ### Funciones anónimas en  C# #
 
 ```csharp
@@ -24,7 +24,7 @@ int resultado  =
 
 Note:
 Definición de función y llamada en la misma línea
----
+--- -->
 
 ### Funciones anónimas en Elixir #
 
@@ -37,7 +37,7 @@ En Elixir se hace muy parecido
 
 ---
 
-### Funciones anónimas en Elixir #
+<!-- ### Funciones anónimas en Elixir #
 
 ```elixir
 (fn(x, y) -> x + y end).(3,5)
@@ -45,7 +45,7 @@ En Elixir se hace muy parecido
 Note:
 Y se puede llamar en la misma línea
 
----
+--- -->
 
 ### Funciones de primer orden en C# #
 

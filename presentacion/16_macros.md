@@ -6,7 +6,8 @@
 - Una macro es código que escribe código
 
 ---
-#### La primera regla de las macros, es que no escribas macros (al menos si lo puedes hacer con una función)
+#### La primera regla de las macros:
+- No escribas macros (al menos si lo puedes hacer con una función)
 
 ![no](assets/img/nono.gif)
 
@@ -20,9 +21,6 @@
 ---
 
 ### AST (Abstract Syntax Tree)
-
-Cada instrucción que escribimos en Elixir se representa con una tupla de tres elementos
-
 ```
 iex(1)> quote do 1 + 2 end
 {:+, [context: Elixir, import: Kernel], [1, 2]}

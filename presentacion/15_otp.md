@@ -1,4 +1,9 @@
-### Un poco de OTP (Open Telecom Platform)
+###OTP (Open Telecom Platform)
+
+En los sistemas distribuidos existen dos problemas:
+ 2. Entrega única de mensajes 
+ 1. Orden de entrega garantizada 
+ 2. Entrega única de mensajes
 
 ---
 
@@ -13,19 +18,18 @@ concurrencia no es lo mismo que paralelismo. Concurrencia es cuando tienes mucha
 Paralelismo es cuando haces dos tareas a la vez.
 ---
 
+![Modelo de actores](assets/img/ActorModel.png)
+--- 
+
 ### Anatomía de un proceso en Erlang/Elixir
 
 ![Proceso](assets/img/proceso.png)
 
 --- 
 
-![Modelo de actores](assets/img/ActorModel.png)
-
---- 
-
 ### Diferencias de un proceso con los hilos de .NET
 
-- Procesos muy pequeños. Cambio de contexto sencillo. 
+- Procesos muy pequeños. Cambio de contexto sencillo.
 - Inmutabilidad, y no compartir memoria = no hacen falta semáforos, monitores ni cerrojos
 - Recolector de basura muy simple. 
 - Procesos independientes. Un proceso no puede bloquear a otros* 
@@ -152,7 +156,8 @@ Calculator.mult(:calculadora2, 2)
 Note:
 herramienta observer proporcionada por Erlang. Puedes ver el árbol de supervisión, la cola de mensajes, el estado actual,
 matar procesos etc.
----
+
+<!-- ---
 
 ### Para mantener el estado de un proceso podemos usar un agente
 
@@ -173,4 +178,4 @@ matar procesos etc.
 
 - ETS. Tablas en memoria para guardar tuplas (clave/valor)
 - Mnesia. Base de datos distribuida, persistente, con sistema de índices etc.
-- Otras bases de datos
+- Otras bases de datos -->

@@ -1,6 +1,17 @@
 ### Tipos utilizados en Elixir
 ---
-### TIPOS
+
+#### Atoms
+```
+iex(9)> :uno
+:uno
+iex(10)> :dos
+:dos
+iex(11)> :uno == String.to_atom("uno")
+true
+```
+---
+
 #### Listas en Elixir
 ```
 iex(14)> [1,2, true, "cuatro", 5]
@@ -9,22 +20,11 @@ iex(15)> [1,2,6,7] ++ [4,5]
 [1, 2, 6, 7, 4, 5]
 iex(16)> [1,2,true,3,4,false] -- [true,false]
 [1, 2, 3, 4]
-``` 
----
-
-### TIPOS
-#### Listas en C# #
-
-```csharp
-var lista = new List<object>();
-lista.add(1);
-lista.add(2);
-lista.add(true);
-lista.add("cuatro");
 ```
----
 
-### TIPOS
+Note:
+En C# también podríamos hacer esto, pero sería una lista de object, que no sé si alguno habrá hecho nunca. 
+---
 #### Tuplas en Elixir
 
 ``` elixir
@@ -45,8 +45,6 @@ Note:
 Las tuplas en Elixir se utilizan muchísimo
 
 ---
-
-### TIPOS
 #### Tuplas en C# #
 
 ```csharp
@@ -61,12 +59,10 @@ var message = tupla.Item3;
 ```
 
 Note:
-
 Las tuplas en C# eran un infierno, y por eso las utilizábamos tan poco.
 En C# 7 han mejorado mucho con las ValueTuples y son mucho más fáciles de utilizar
 ---
 
-### TIPOS
 #### Tuplas en C# #
 
 ```csharp
@@ -81,8 +77,6 @@ Console.WriteLine($"Code: {code}, Message: { message}");
 ```
 
 ---
-
-### TIPOS
 #### Listas clave valor, en Elixir
 
 ``` elixir
@@ -104,7 +98,6 @@ Note:
 Son como diccionarios en C#. Azucar sintáctico para no tener que escribir tuplas.
 ---
 
-### TIPOS
 #### Estructuras en Elixir
 
 ```elixir
@@ -127,9 +120,6 @@ Se definen en un módulo y son estructuras de datos con una estructura fija y es
 Permiten dot notation.
 ---
 
-
-
-### TIPOS
 #### Maps
 
 ``` elixir
@@ -140,18 +130,9 @@ iex(29)> persona = %{ :nombre => "Rubén", "apellido" => "Fernández", 22 => fal
 iex(30)> persona[22]
 false
 ```
+
 Note:
-
 Parecidos a objetos JSON, pero teniendo en cuenta que la clave puede ser de cualquier tipo (no solo string)
----
 
-### TIPOS
-#### Atoms
-```
-iex(9)> :uno
-:uno
-iex(10)> :dos
-:dos
-iex(11)> :uno == String.to_atom("uno")
-true
-```
+
+

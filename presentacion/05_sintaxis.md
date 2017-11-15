@@ -30,6 +30,7 @@ namespace Helpers{
     }
 }
 ```
+
 Note: 
 Típico ejemplo de C#: namespace, clase, campos, y métodos
 ---
@@ -90,7 +91,7 @@ namespace Helpers{
 @[15-21]
 
 Note:
-Las clases en C# tienen métodos. La firma de un método depende de su nombre y los típos de sus parámetros. 
+Las clases en C# tienen métodos. La firma de un método depende de su nombre y los tipos de sus parámetros. 
 
 ---
 
