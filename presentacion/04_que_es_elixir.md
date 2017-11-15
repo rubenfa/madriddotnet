@@ -7,8 +7,8 @@
 - Diseñado para hacer aplicaciones mantenibles y escalables
 
 Note:
-Elixir se define como un lenguaje para hacer aplicaciones mantenibles y escalables.
-Jose Valim con **sintaxis de Ruby**
+- Creador, historia (viene de **RUBY**)
+- Lenguaje funcional
 
 ---
 ### Características de Elixir
@@ -19,8 +19,10 @@ Jose Valim con **sintaxis de Ruby**
 - Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986) 
 
 Note:
-Es un lenguaje inmutable, los datos no se modifican, se sustituyen. Ventajas. Recursividad presente.
-Importancia de funciones.
+- Dinámico. **MIEDO**
+- Inmutable. Thread safe, evitas side effects, identidad de las estructuras de datos (para comparar)
+- Evitamos loops para favorecer recursividad
+- Beam a hombros de gigantes. Desarrollado por gente con tiros pegados.
 
 <!-- ---
 #### Vamos, que es otro frikilenguaje, ¿o sirve para algo?
