@@ -58,6 +58,7 @@ Note:
 - No existen namespaces, pero se usan los puntos para simularlos
 - Funciones públicas o funciones privadas
 
+---
 ### En C# las clases tienen métodos
 
 ```csharp
