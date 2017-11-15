@@ -4,31 +4,22 @@
 ![Image-Absolute](assets/img/valim.jpg)
 - Creado por Jose Valim
 - Funcional
-- Dinámico
 - Diseñado para hacer aplicaciones mantenibles y escalables
 
 Note:
-Elixir se define como un lenguaje para hacer aplicaciones mantenibles y escalables.
-Jose Valim con **sintaxis de Ruby**
+- Creador, historia (viene de **RUBY**)
+- Lenguaje funcional
 
 ---
-### Características típicas de la programación funcional
+### Características de Elixir
+- Dinámico
 - Inmutable
 - Las funciones son miembros de primera clase
 - Recursividad
+- Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986)
 
 Note:
-Es un lenguaje inmutable, los datos no se modifican, se sustituyen. Ventajas. Recursividad presente.
-Importancia de funciones.
-
----
-#### Vamos, que es otro frikilenguaje, ¿o sirve para algo?
-
-- Elixir corre sobre la máquina virtual de Erlang (BEAM) (since 1986) 
-- Puedes hacer aplicaciones backend
-- Aplicaciones web con Phoenix (framework)
-
-Note:
-Aunque es un lenguaje nuevo, corre sobre BEAM. **A hombros de gigantes**
-Probado por gente que **tiene muchos tiros pegados**
-Sirve para muchas cosas
+- Dinámico. **MIEDO**
+- Inmutable. Thread safe, evitas side effects, identidad de las estructuras de datos (para comparar)
+- Evitamos loops para favorecer recursividad
+- Beam a hombros de gigantes. Desarrollado por gente con tiros pegados.

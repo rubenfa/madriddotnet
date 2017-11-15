@@ -13,38 +13,12 @@ Ejemplo de definición de función anónima y llamada de la misma
 
 ---
 
-### Funciones anónimas en  C# #
-
-```csharp
-// Define la función y la llama.
-// Devuelve 5
-int resultado  = 
-       new Func<int,int,int>((x,y) => x +y)(2,3) ;
-```
-
-Note:
-Definición de función y llamada en la misma línea
----
-
 ### Funciones anónimas en Elixir #
 
 ```elixir
 f = fn(x, y) -> x + y end
 f.(3,5)
 ```
-Note:
-En Elixir se hace muy parecido
-
----
-
-### Funciones anónimas en Elixir #
-
-```elixir
-(fn(x, y) -> x + y end).(3,5)
-```
-Note:
-Y se puede llamar en la misma línea
-
 ---
 
 ### Funciones de primer orden en C# #

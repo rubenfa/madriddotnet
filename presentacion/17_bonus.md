@@ -12,7 +12,8 @@
 
 ---?code=src/elixir/test/elixir_test.exs
 @[2](Macro de ExUnit)
-@[9-11]
+@[9](Nombre del test)
+@[10-12](Assertions)
 
 ---
 
@@ -21,8 +22,8 @@
 - Es el gestor de paquetes de Elixir (como Nuget)
 - Válido tanto en Elixir como en Erlang
 
-
----?code=src/elixir/mix.exs
+---?code=src/elixir/mix.exs 
+@[21-26]
 
 ---
 ### Mix
@@ -40,14 +41,9 @@
 ```
 mix new madriddotnet
 ```
-
 ```
 mix deps.get
 ```
----
-
-### Ejemplos
-
 ```
 mix compile
 ```

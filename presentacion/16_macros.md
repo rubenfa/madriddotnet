@@ -6,7 +6,8 @@
 - Una macro es código que escribe código
 
 ---
-#### La primera regla de las macros, es que no escribas macros (al menos si lo puedes hacer con una función)
+#### La primera regla de las macros:
+- No escribas macros 
 
 ![no](assets/img/nono.gif)
 
@@ -20,9 +21,6 @@
 ---
 
 ### AST (Abstract Syntax Tree)
-
-Cada instrucción que escribimos en Elixir se representa con una tupla de tres elementos
-
 ```
 iex(1)> quote do 1 + 2 end
 {:+, [context: Elixir, import: Kernel], [1, 2]}
@@ -35,7 +33,7 @@ iex(1)> quote do 1 + 2 end
 ---
 ### Un ejemplo más complejo
 
-+++?image=assets/img/ast.png?size=auto 90%
+![expansion](assets/img/ast.png)
 
 [Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)
 
@@ -63,8 +61,6 @@ end
 
 [Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)
 
----
+---?image=assets/img/macroexpansion.png&size=auto 90%
 
-![Macro Expansion](assets/img/macroexpansion.png)
 
-[Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir)

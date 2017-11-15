@@ -1,4 +1,9 @@
-### Un poco de OTP (Open Telecom Platform)
+### OTP (Open Telecom Platform)
+
+En los sistemas distribuidos existen dos problemas:
+ 2. Entrega única de mensajes 
+ 1. Orden de entrega garantizada 
+ 2. Entrega única de mensajes
 
 ---
 
@@ -8,10 +13,13 @@
 - Inicialmente pensado para gestionar centralitas telefónicas.
 - Utiliza un modelo de actores para gestionar concurrencia y paralelismo
 
-Nota:
+Note:
 concurrencia no es lo mismo que paralelismo. Concurrencia es cuando tienes muchas peticiones y vas rotando para satisfacerlas.
 Paralelismo es cuando haces dos tareas a la vez.
 ---
+
+![Modelo de actores](assets/img/ActorModel.png)
+--- 
 
 ### Anatomía de un proceso en Erlang/Elixir
 
@@ -19,13 +27,9 @@ Paralelismo es cuando haces dos tareas a la vez.
 
 --- 
 
-![Modelo de actores](assets/img/ActorModel.png)
-
---- 
-
 ### Diferencias de un proceso con los hilos de .NET
 
-- Procesos muy pequeños. Cambio de contexto sencillo. 
+- Procesos muy pequeños. Cambio de contexto sencillo.
 - Inmutabilidad, y no compartir memoria = no hacen falta semáforos, monitores ni cerrojos
 - Recolector de basura muy simple. 
 - Procesos independientes. Un proceso no puede bloquear a otros* 
@@ -152,25 +156,4 @@ Calculator.mult(:calculadora2, 2)
 Note:
 herramienta observer proporcionada por Erlang. Puedes ver el árbol de supervisión, la cola de mensajes, el estado actual,
 matar procesos etc.
----
 
-### Para mantener el estado de un proceso podemos usar un agente
-
-- Un agente en Elixir, es un proceso en segundo plano que mantiene el estado
-- El estado se puede consultar o modificar desde otros procesos
-- El agente también puede colocarse en un árbol de supervisión
-
----
-### Agent
----?code=src/elixir/lib/otp/agent.ex
-@[2](Usamos la macro Agent)
-@[4-6](Arrancamos un agente referenciado con el nombre del módulo)
-@[8-14]
-
-
----
-### Alternativas para manejar el estado
-
-- ETS. Tablas en memoria para guardar tuplas (clave/valor)
-- Mnesia. Base de datos distribuida, persistente, con sistema de índices etc.
-- Otras bases de datos

@@ -30,7 +30,8 @@ namespace Helpers{
     }
 }
 ```
-Note: 
+
+Note:
 Típico ejemplo de C#: namespace, clase, campos, y métodos
 ---
 ### Elixir se organiza en módulos
@@ -53,11 +54,11 @@ end
 ```
 
 Note:
-Elixir se organiza en módulos, no en clases. Los módulos se puden llamar con su nombre
-y la función a la que se puede llamar. Las funciones pueden ser públicas, o privadas. 
-**NO TIENE NAMESPACES*
----
+- Se organiza en módulos
+- No existen namespaces, pero se usan los puntos para simularlos
+- Funciones públicas o funciones privadas
 
+---
 ### En C# las clases tienen métodos
 
 ```csharp
@@ -90,7 +91,7 @@ namespace Helpers{
 @[15-21]
 
 Note:
-Las clases en C# tienen métodos. La firma de un método depende de su nombre y los típos de sus parámetros. 
+- Firma de un método, por su nombre y sus parámetros (y tipos no nombres)
 
 ---
 
@@ -113,7 +114,9 @@ end
 sum/2
 sum/3
 ```
+
 Note:
-Los módulos de Elixir tienen funciones que se distinguen por su nombre y por su número de parámetros
-**Arity** es la forma de identificar las funciones
+- Número de parámetros y nombre
+- Arity, en matemáticas
+- Se ignora el tipo porque Elixir es **DINÁMICO**
 

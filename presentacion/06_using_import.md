@@ -1,4 +1,4 @@
-### C# usa namespaces para organizar el código #
+### C# se usan namespaces para organizar el código #
 
 ```csharp
 using System.Linq;
@@ -20,7 +20,9 @@ namespace MadridDotNet.Using
 @[10]
 
 Note:
-Para organizar las clases C# utiliza los namespaces. A los namespaces se les puede poner un alias
+- Cuando tenemos muchas clases hay que organizarlas
+- En C# se usan namespaces
+- Para usar clases de otro namespace hay que indicarlo
 ---
 
 ### Elixir, alias
@@ -49,9 +51,9 @@ end
 @[11-13]
 
 Note:
-Elixir no tiene objetos, por eso para organizar los distintos módulos hay diferentes formas de hacerlo.
-Alias es para evitar tener que escribir todo el nombre
-
+- Para organizar los módulos existen distintas sentencias.
+- El Alias es solo para recortar
+- Se puede llamar también dentro de funciones
 ---
 
 ### Elixir, import
@@ -76,7 +78,7 @@ end
 @[9-11]
 
 Note:
-import añade una librería como si fuera programada dentro del mismo módulo
+- import añade una librería como si fuera programada dentro del mismo módulo
 
 ---
 
@@ -114,8 +116,9 @@ defmodule AssertionTest do
 end
 ```
 Note:
-relacionado con require. Hay veces que además de usar una macro, hay que iniciar ciertos valores, así que se utiliza use.
-
+- Relacionado con require.
+- Utilizado para inicializar cosas
+- Use llama a la macro __using__ 
 ---
 
 ```elixir

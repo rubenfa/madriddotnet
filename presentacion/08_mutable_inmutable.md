@@ -23,7 +23,8 @@ namespace MadridDotNet {
 @[8-12]
 
 Note:
-C# es un lenguaje mutable. Como mucho podemos definir cosas como readonly (para solo instanciarlas una vez). Pero se pueden modificar
+C# es un lenguaje mutable. Como mucho podemos definir cosas como readonly (para solo instanciarlas una vez). 
+Si la variable es de tipo primitivo, no se podrá modificar, pero si es un objeto sí.
 ---
 
 ### Elixir es un lenguaje inmutable, pero con *rebinding*
