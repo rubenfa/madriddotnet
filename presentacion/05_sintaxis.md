@@ -53,7 +53,7 @@ defmodule Sintaxis.ConsoleWriter do
 end
 ```
 
-Note: 
+Note:
 - Se organiza en módulos
 - No existen namespaces, pero se usan los puntos para simularlos
 - Funciones públicas o funciones privadas
