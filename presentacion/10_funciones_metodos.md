@@ -32,10 +32,6 @@ Definición de función y llamada en la misma línea
 f = fn(x, y) -> x + y end
 f.(3,5)
 ```
-
-Note:
-En Elixir se hace muy parecido
-
 ---
 
 <!-- ### Funciones anónimas en Elixir #
