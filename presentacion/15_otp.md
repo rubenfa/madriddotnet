@@ -1,4 +1,4 @@
-###OTP (Open Telecom Platform)
+### OTP (Open Telecom Platform)
 
 En los sistemas distribuidos existen dos problemas:
  2. Entrega única de mensajes 
